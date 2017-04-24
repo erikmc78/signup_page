@@ -1,0 +1,22 @@
+body {
+	background-color: dodgerblue;
+}
+
+img {
+	height: 35px;
+	width: 170px;
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	margin: auto;
+}
+
+.container {
+	height: 460px;
+	width: 320px;
+	background-color: white;
+	margin: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 3px;
+}
