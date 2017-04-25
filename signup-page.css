@@ -26,6 +26,7 @@ h1 {
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 30px;
+	color: grey;
 }
 
 .demo-form label {
@@ -53,4 +54,13 @@ h1 {
     font-size: 20px;
     color: white;
 }
+
+.psw {
+	padding-left: 100px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.ln {
+	text-align: center;
 }
