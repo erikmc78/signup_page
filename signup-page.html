@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
 	<link rel="stylesheet" type="text/css" href="signup-page.css">
+	<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+</style>
 <head>
 	<title>AnalogSea Sign Up</title>
 </head>
 <body>
 	<img src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.6.2_challenge_signup_form/logo.png" alt="AnalogSeaLogo" style="width:170px;height:35px;">
-	<div class="container"></div>
+	<div class="container">
+	<form class='demo-form' action="/some-server-endpoint" method='post'>
+		<h1>Sign Up</h1>
+		<label for="email">Email</label>
+		<input placeholder="foo@bar.com" type="email" name="email" id="email" required/>
+		<label for="password">Password</label>
+		<input placeholder="1234passw0rd" type="password" name="password" id="password" required/>
+		<button type="submit" class="signupbtn">Sign Up</button>
+	</div>
+		
+	</form>
 
 </body>
 </html>
